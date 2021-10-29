@@ -1,0 +1,19 @@
+header
+{
+    display: block;
+    width: 100%;
+}
+.nba
+{
+background-image: url("images/nba.jpg"); 
+height: 375px;
+background-position: center;
+position: relative;
+background-repeat: no-repeat;
+background-size: cover;
+}
+ul{
+    list-style-type: none;
+    background-color:thistle;
+}   
+li{display: inline;}
