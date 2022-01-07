@@ -1,0 +1,94 @@
+body,
+html {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  font-size: 18px;
+}
+
+header {
+  display: block;
+  width: 100%;
+}
+.banner {
+  background-image: url("media/banner_img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: dimgray;
+}
+
+nav ul li {
+  display: inline-block;
+}
+li {
+  float: left;
+}
+li a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+}
+li a:hover {
+  background-color: rgb(48, 47, 47);
+}
+h1,
+h2 {
+  margin: 0.5em;
+}
+main a {
+  color: turquoise;
+}
+p {
+  margin: 1em;
+  line-height: 1.4em;
+  letter-spacing: 1px;
+}
+hr {
+  margin: 1em;
+  border: 1px dotted;
+  clear: both;
+}
+figure {
+  padding: 0.5em;
+  margin: 0 1em 0.5em 1em;
+  float: left;
+  width: 30%;
+  border: 1px solid black;
+}
+figcaption {
+  font-size: 90%;
+}
+img {
+  width: 100%;
+}
+footer {
+  background-color: dimgray;
+  padding: 0.1em;
+  clear: both;
+}
+footer p {
+  color: white;
+  text-align: center;
+  margin: 0.5em;
+}
+footer img {
+  top: 5px;
+  width: 1.2em;
+}
+
+@media screen and (max-width: 900px) {
+  figure {
+    width: 90%;
+    margin: 1em;
+  }
+}
