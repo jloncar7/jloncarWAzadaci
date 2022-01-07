@@ -1,1 +1,1 @@
-# Mjesto za moje vježbe iz WA.
+College assignment - NBAhub
