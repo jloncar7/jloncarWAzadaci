@@ -1,0 +1,96 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="../style.css" />
+
+    <title>Projektni zadatak 6</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="HTML zadatak" />
+    <meta name="author" content="Josip Loncar" />
+    <meta name="keywords" content="HTML" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header>
+      <div class="banner"></div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Contact form</h1>
+      <div class="contact">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11143.322088529567!2d16.0739271!3d45.7144367!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe159703d90972cf3!2sUniversity%20of%20Applied%20Sciences%20Velika%20Gorica!5e0!3m2!1sen!2shr!4v1641143177638!5m2!1sen!2shr"
+          width="100%"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+
+        <form action="" id="contact_form" name="contact_form" method="POST">
+          <label for="first_name">First name</label>
+          <input
+            type="text"
+            id="first_name"
+            name="fname"
+            placeholder="Type in your name..."
+            required
+          />
+
+          <label for="last_name">Last name</label>
+          <input
+            type="text"
+            id="last_name"
+            name="lname"
+            placeholder="Type in your lastname..."
+            required
+          />
+
+          <label for="mail">Your e-mail</label>
+          <input
+            type="email"
+            id="mail"
+            name="email"
+            placeholder="Type in your e-mail..."
+            required
+          />
+
+          <label for="country">Country</label>
+          <select name="country" id="country">
+            <option value="">Select your country</option>
+            <option value="HR">Croatia</option>
+            <option value="BIH">Bosnia and Herzegovina</option>
+            <option value="USA">United States of America</option>
+            <option value="GER">Germany</option>
+            <option value="FR">France</option>
+            <option value="RUS">Russia</option>
+          </select>
+
+          <label for="opis">Message</label>
+          <textarea
+            name="opis"
+            id="opis"
+            placeholder="Write your message..."
+            style="height: 100px"
+          ></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>
+        Copyright &copy; 2022 Josip Lončar.
+        <a href="https://github.com/jloncar7">
+          <img src="../media/github_img.png" alt="Github icon" />
+        </a>
+      </p>
+    </footer>
+  </body>
+</html>
